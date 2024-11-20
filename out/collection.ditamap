@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//Atmel//DTD DITA Map//EN" "map.dtd">
+<map id="d1">
+   <title>TITLE</title>
+   <topicref href="CSC_CSCB_REG_X1Y2/CSC_CSCB_REG_X1Y2-sidsc.ditamap"
+             format="ditamap"/>
+</map>
