@@ -1,0 +1,5 @@
+*.bak
+Conversion/*
+PolarFire-Reg-Import/*
+out/*
+Source/*
