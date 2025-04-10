@@ -1,8 +1,9 @@
-set PATHTOPROJECT=Source
+set PATHTOPROJECT=output-dita
 set OUTPUTPATH=\out
 set FILENAME=details.xml
 set DITAMAPNAME=collection.ditamap
 set DIRECTORYLISTNAME=directory_list.txt
+
 
 cd ..\
 
@@ -43,8 +44,8 @@ net.sf.saxon.Transform ^
 -xsl:%WORKINGDIR%\depend\xslt\generate_ditamap.xsl ^
 STARTING-DIR="%WORKINGDIR%/%PATHTOPROJECT%/" OUTPUT-DIR="%WORKINGDIR%%OUTPUTPATH%/" DIRECTORYLISTNAME="%DIRECTORYLISTNAME%" 
 
-del %WORKINGDIR%\%PATHTOPROJECT%\details.xml
-del %WORKINGDIR%\%PATHTOPROJECT%\%DIRECTORYLISTNAME%
+#del %WORKINGDIR%\%PATHTOPROJECT%\details.xml
+#del %WORKINGDIR%\%PATHTOPROJECT%\%DIRECTORYLISTNAME%
 
 cd %WORKINGDIR%\batchfiles
 
