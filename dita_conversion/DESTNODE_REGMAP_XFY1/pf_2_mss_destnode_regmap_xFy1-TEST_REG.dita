@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE register
+  PUBLIC "-//Atmel//DTD DITA SIDSC Component//EN" "C:\projects\ipdm\solution\dita\dita-1.2\atmel\dtd\atmel-sidsc-component.dtd">
+<register id="d3e2851"><registerName>TEST_REG</registerName><registerNameMore><registerNameFull>TEST_REG</registerNameFull></registerNameMore><registerBody><registerDescription>32 bit RW test register</registerDescription><registerProperties><registerPropset><addressOffset>0x38</addressOffset><registerSize>32</registerSize><registerAccess>read-write</registerAccess><registerResetValue>
+                                        __NEEDS_REVIEW__
+                                    </registerResetValue><bitOrder>descending</bitOrder></registerPropset></registerProperties></registerBody><bitField id="d3e2862"><bitFieldName>field_0</bitFieldName><bitFieldBriefDescription/><bitFieldBody><bitFieldDescription>test register to verify cscb bus read/write operations</bitFieldDescription><bitFieldProperties><bitFieldPropset><bitWidth>32</bitWidth><bitOffset>0</bitOffset><bitFieldAccess>R/W</bitFieldAccess><bitFieldReset><bitFieldResetValue/></bitFieldReset></bitFieldPropset></bitFieldProperties></bitFieldBody></bitField></register>

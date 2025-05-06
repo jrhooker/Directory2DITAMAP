@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="d3e1">
+   <title>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12 Register Interface</title>
+   <topicmeta>
+      <shortdesc>Microchip:pf_2_mss:pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12:Vv1.0.118</shortdesc>
+   </topicmeta>
+   <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-component.dita"
+             format="dita">
+      <topicmeta>
+         <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-component</navtitle>
+      </topicmeta>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CSCBCTRL.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CSCBCTRL</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CNTL.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CNTL</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CNFG.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-CNFG</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-TRIM.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-TRIM</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-TR_REPR.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-TR_REPR</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-SECU.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_lsr_top_regmap_x2y2_RB_cscbreg_lsr_top_pair_12-SECU</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</map>

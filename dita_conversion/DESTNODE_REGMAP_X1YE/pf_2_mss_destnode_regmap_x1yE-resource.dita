@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="d3e1">
+   <title>pf_2_mss_destnode_regmap_x1yE Parameter Variable Definitions</title>
+   <shortdesc>This library includes label variables to define some Module Parameters. Each label variable is defined in a separate paragraph by means of the &lt;msgph&gt; element. The &lt;msgph&gt; attribute 'varid' should hold a unique name for the variable.</shortdesc>
+   <body/>
+</topic>

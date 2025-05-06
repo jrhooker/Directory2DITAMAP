@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE register
+  PUBLIC "-//Atmel//DTD DITA SIDSC Component//EN" "C:\projects\ipdm\solution\dita\dita-1.2\atmel\dtd\atmel-sidsc-component.dtd">
+<register id="d3e1663"><registerName>SPARERO</registerName><registerNameMore><registerNameFull>SPARERO</registerNameFull></registerNameMore><registerBody><registerDescription>SPARERO Reg</registerDescription><registerProperties><registerPropset><addressOffset>0x3c</addressOffset><registerSize>32</registerSize><registerAccess>read-only</registerAccess><registerResetValue>
+                                        __NEEDS_REVIEW__
+                                    </registerResetValue><bitOrder>descending</bitOrder></registerPropset></registerProperties></registerBody><bitField id="d3e1674"><bitFieldName>ro_spare</bitFieldName><bitFieldBriefDescription/><bitFieldBody><bitFieldDescription>Spare read outs</bitFieldDescription><bitFieldProperties><bitFieldPropset><bitWidth>12</bitWidth><bitOffset>0</bitOffset><bitFieldAccess>R</bitFieldAccess><bitFieldReset><bitFieldResetValue/></bitFieldReset></bitFieldPropset></bitFieldProperties></bitFieldBody></bitField></register>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="d3e1">
+   <title>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29 Register Interface</title>
+   <topicmeta>
+      <shortdesc>Microchip:pf_2_mss:pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29:Vv1.0</shortdesc>
+   </topicmeta>
+   <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-component.dita"
+             format="dita">
+      <topicmeta>
+         <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-component</navtitle>
+      </topicmeta>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CSCBCTRL.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CSCBCTRL</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYE0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYE0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYE1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYE1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY3.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY3</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY4.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY4</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-CLK2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF3.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOFF3</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-MODE2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY5.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DLY5</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SPARE.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SPARE</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOGSTATUS.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-IOGSTATUS</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SLEEP0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SLEEP0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SLEEP1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-SLEEP1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-TXDLYSTAT.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-TXDLYSTAT</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-RXDLYSTAT0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-RXDLYSTAT0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-BDLYSTAT.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-BDLYSTAT</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EDLYSTAT.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EDLYSTAT</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYESTAT.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-EYESTAT</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DFTSTAT.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_iog_pair_x2y0_RB_LS_R1_I5_29-DFTSTAT</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</map>

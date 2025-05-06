@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="d3e1">
+   <title>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5 Register Interface</title>
+   <topicmeta>
+      <shortdesc>Microchip:pf_2_mss:pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5:Vv1.0</shortdesc>
+   </topicmeta>
+   <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-component.dita"
+             format="dita">
+      <topicmeta>
+         <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-component</navtitle>
+      </topicmeta>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-CSCBCTRL.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-CSCBCTRL</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-DRV0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-DRV0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-DRV1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-DRV1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-ODT0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-ODT0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IBUF0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IBUF0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IBUF1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IBUF1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE3.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-IOMODE3</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-SPARE.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-SPARE</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-STATUS.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-STATUS</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-LANEPVT0.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-LANEPVT0</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-LANEPVT1.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-LANEPVT1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-BANKPVT2.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-BANKPVT2</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="./pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-SPARERO.dita"
+                format="dita">
+         <topicmeta>
+            <navtitle>pf_2_mss_cscbreg_hsio_pair_x2yF_LB_RS_R0_I5_5-SPARERO</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</map>
