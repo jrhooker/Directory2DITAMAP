@@ -23,8 +23,7 @@
   <xsl:param name="OUTPUT-DIR"/>
   <xsl:param name="DIRECTORYLISTNAME"/>
 
-  <xsl:param name="directories"
-    select="fn:unparsed-text(translate(concat('file:///', $STARTING-DIR, $DIRECTORYLISTNAME), '\', '/'))"/>
+  <xsl:param name="directories"  select="fn:unparsed-text(translate(concat('file:///', $STARTING-DIR, $DIRECTORYLISTNAME), '\', '/'))"/>
 
   <xsl:param name="list" select="tokenize($directories, '&#xD;')"/>
   
