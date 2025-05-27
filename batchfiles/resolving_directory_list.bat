@@ -1,4 +1,4 @@
-set PATHTOPROJECT=output-dita
+set PATHTOPROJECT=source
 set OUTPUTPATH=\out
 set FILENAME=details.xml
 set DITAMAPNAME=collection.ditamap
