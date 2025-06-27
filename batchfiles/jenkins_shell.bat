@@ -4,14 +4,13 @@
 # set DITAMAPNAME=collection.ditamap
 # set DIRECTORYLISTNAME=directory_list.txt
 
+
+
 set PATHTOPROJECT=%1%
-set OUTPUTPATH=%2%
+set OUTPUTPATH=\%2%
 set FILENAME=%3%
 set DITAMAPNAME=%4%
 set DIRECTORYLISTNAME=%5%
-
-
-cd ..\
 
 copy %CD%\depend\details.xml %PATHTOPROJECT%\details.xml
 
