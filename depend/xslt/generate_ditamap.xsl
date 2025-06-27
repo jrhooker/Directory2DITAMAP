@@ -48,6 +48,7 @@
   
   <xsl:template match="/">
     
+    <xsl:if test="count($GPIO_) &gt; 0">
     <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}GPIO.ditamap">
       <xsl:element name="map">
@@ -72,6 +73,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>
+    
+    <xsl:if test="count($HSIO_) &gt; 0">
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}CSCBREG_HSIO.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -95,6 +99,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+    
+    <xsl:if test="count($DDR_CONTROLLER) &gt; 0">
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}DDRC.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -118,6 +125,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($DESTINATION_NODE_REGMAP) &gt; 0">  
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}DESTINATION_NODE_REGMAP.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -141,6 +151,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($EMPCS_) &gt; 0">     
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}EMPCS.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -164,6 +177,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($GPLL_) &gt; 0">   
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}GPLL_CSCB.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -187,6 +203,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($INT_CONTROL_REGS_) &gt; 0">  
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}INT_CTRL_REGS.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -210,6 +229,10 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+      
+    <xsl:if test="count($LANE_CONTROL_) &gt; 0">    
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}LANE_CONTROL.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -233,6 +256,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($LSRAM_REGMAP) &gt; 0">     
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}LSRAM_REGMAP.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -256,6 +282,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($RESERVED) &gt; 0">     
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}RESERVED.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -279,6 +308,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($IOG_) &gt; 0">    
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}IOG.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -302,6 +334,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>   
+      
+    <xsl:if test="count($TGLNE_CSCB_) &gt; 0">   
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}TGLNE_CSCB.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -325,6 +360,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($TGPLL) &gt; 0">     
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}TGPLL.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -348,6 +386,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>  
+      
+    <xsl:if test="count($TSGP8) &gt; 0">     
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}TSGP8.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -371,6 +412,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>
+      
+    <xsl:if test="count($VSRAM_REGMAP_) &gt; 0">  
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}VSRAM_REGMAP.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -394,6 +438,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>
+      
+    <xsl:if test="count($xr5axi_ipcore_x8_gen5_ep) &gt; 0">  
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}xr5axi_ipcore_x8_gen5_ep.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -417,6 +464,9 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>
+      
+    <xsl:if test="count($xr5axi_ipcore_x8_gen5_rp) &gt; 0">  
     <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}xr5axi_ipcore_x8_gen5_rp.ditamap">
       <xsl:element name="map">
         <xsl:attribute name="id" select="generate-id()"/>
@@ -440,6 +490,8 @@
         </xsl:for-each>
       </xsl:element>
     </xsl:result-document>
+    </xsl:if>
+      
   </xsl:template>
 
 
