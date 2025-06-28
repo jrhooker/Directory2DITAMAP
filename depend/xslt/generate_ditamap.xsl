@@ -27,6 +27,8 @@
 
   <xsl:param name="list" select="tokenize($directories, '&#xD;')"/>
   
+ 
+  
   <xsl:variable name="DDR_CONTROLLER" select="$list[contains(., 'DDR_CONTROLLER')]"/>
   <xsl:variable name="DESTINATION_NODE_REGMAP" select="$list[contains(., 'DESTINATION_NODE_REGMAP')]"/>
   <xsl:variable name="EMPCS_" select="$list[contains(., 'EMPCS_')]"/>
@@ -47,6 +49,10 @@
   
   
   <xsl:template match="/">
+    
+    <xsl:message>STARTING-DIR:<xsl:value-of select="$STARTING-DIR"/></xsl:message>
+    <xsl:message>directories:<xsl:value-of select="$directories"/></xsl:message>
+    
     
     <xsl:if test="count($GPIO_) &gt; 0">
     <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
