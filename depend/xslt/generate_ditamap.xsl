@@ -52,7 +52,7 @@
     
     <xsl:message>STARTING-DIR:<xsl:value-of select="$STARTING-DIR"/></xsl:message>
     <xsl:message>directories:<xsl:value-of select="$directories"/></xsl:message>
-    
+    <xsl:message>list:<xsl:value-of select="$list[1]"/></xsl:message>
     
     <xsl:if test="count($GPIO_) &gt; 0">
     <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
