@@ -46,6 +46,7 @@
   <xsl:variable name="VSRAM_REGMAP_" select="$list[contains(., 'VSRAM_REGMAP_')]"/>
   <xsl:variable name="xr5axi_ipcore_x8_gen5_ep" select="$list[contains(., 'xr5axi_ipcore_x8_gen5_ep')]"/>
   <xsl:variable name="xr5axi_ipcore_x8_gen5_rp" select="$list[contains(., 'xr5axi_ipcore_x8_gen5_rp')]"/>
+  <xsl:variable name="CSC_CSCB_" select="$list[contains(., 'CSC_CSCB_')]"/>
   
   
   <xsl:template match="/">
@@ -53,6 +54,33 @@
     <xsl:message>STARTING-DIR:<xsl:value-of select="$STARTING-DIR"/></xsl:message>
     <xsl:message>directories:<xsl:value-of select="$directories"/></xsl:message>
     <xsl:message>list:<xsl:value-of select="$list[1]"/></xsl:message>
+    
+    <xsl:if test="count($CSC_CSCB_) &gt; 0">
+      <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
+      <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}CSC_CSCB.ditamap">
+        <xsl:element name="map">
+          <xsl:attribute name="id" select="generate-id()"/>
+          <xsl:element name="title">GPIO</xsl:element>
+          <xsl:for-each select="$CSC_CSCB_">
+            <xsl:message>processing: <xsl:value-of select="."/></xsl:message>
+            <xsl:variable name="current-file"
+              select="concat('file:///', translate(translate(normalize-space(.), '\', '/'), ' ', ''), '/')"/>
+            <xsl:message>NEXT: <xsl:value-of select="$current-file"/></xsl:message>
+            <xsl:for-each select="fn:collection($current-file)">
+              <xsl:if test="contains(base-uri(), '.ditamap')">
+                <xsl:element name="topicref">
+                  <xsl:attribute name="href">
+                    <xsl:value-of
+                      select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                  </xsl:attribute>
+                  <xsl:attribute name="format">ditamap</xsl:attribute>
+                </xsl:element>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:for-each>
+        </xsl:element>
+      </xsl:result-document>
+    </xsl:if>
     
     <xsl:if test="count($GPIO_) &gt; 0">
     <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
