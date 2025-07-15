@@ -1,16 +1,21 @@
+
 # set PATHTOPROJECT=source
 # set OUTPUTPATH=\out
 # set FILENAME=details.xml
 # set DITAMAPNAME=collection.ditamap
 # set DIRECTORYLISTNAME=directory_list.txt
 
-
-
 set PATHTOPROJECT=%1%
 set OUTPUTPATH=\%2%
 set FILENAME=%3%
 set DITAMAPNAME=%4%
 set DIRECTORYLISTNAME=%5%
+
+echo PATHTOPROJECT: %PATHTOPROJECT%
+echo OUTPUTPATH: %OUTPUTPATH%
+echo FILENAME: %FILENAME%
+echo DITAMAPNAME": %DITAMAPNAME%
+echo DIRECTORYLISTNAME: %DIRECTORYLISTNAME%
 
 copy %CD%\depend\details.xml %PATHTOPROJECT%\details.xml
 
