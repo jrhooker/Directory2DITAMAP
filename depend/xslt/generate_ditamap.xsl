@@ -17,7 +17,7 @@
     doctype-public="-//OASIS//DTD DITA Map//EN" doctype-system="map.dtd"/>-->
 
   <xsl:output method="xml" media-type="text/xml" indent="yes" encoding="UTF-8"
-    doctype-public="-//Atmel//DTD DITA Map//EN" doctype-system="map.dtd"/>
+    doctype-public="-//OASIS//DTD DITA Map//EN" doctype-system="map.dtd"/>
 
   <xsl:param name="STARTING-DIR"/>
   <xsl:param name="OUTPUT-DIR"/>
