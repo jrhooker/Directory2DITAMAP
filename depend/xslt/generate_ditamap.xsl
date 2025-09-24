@@ -71,7 +71,7 @@
                 <xsl:element name="topicref">
                   <xsl:attribute name="href">
                     <xsl:value-of
-                      select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                      select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                   </xsl:attribute>
                   <xsl:attribute name="format">ditamap</xsl:attribute>
                 </xsl:element>
@@ -98,7 +98,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -124,7 +124,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -150,7 +150,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -176,7 +176,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -202,7 +202,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -228,7 +228,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -254,7 +254,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -281,7 +281,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -307,7 +307,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -333,7 +333,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -359,7 +359,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -385,7 +385,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -411,7 +411,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -437,7 +437,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -463,7 +463,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -489,7 +489,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -515,7 +515,7 @@
               <xsl:element name="topicref">
                 <xsl:attribute name="href">
                   <xsl:value-of
-                    select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                    select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
                 </xsl:attribute>
                 <xsl:attribute name="format">ditamap</xsl:attribute>
               </xsl:element>
@@ -542,7 +542,7 @@
             <xsl:element name="topicref">
               <xsl:attribute name="href">
                 <xsl:value-of
-                  select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
+                  select="concat('./', substring-after(base-uri(), translate($STARTING-DIR, '\', '/')))"/>
               </xsl:attribute>
               <xsl:attribute name="format">ditamap</xsl:attribute>
             </xsl:element>
