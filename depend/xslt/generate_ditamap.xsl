@@ -33,7 +33,7 @@
   <xsl:variable name="DESTINATION_NODE_REGMAP" select="$list[contains(., 'DESTINATION_NODE_REGMAP')]"/>
   <xsl:variable name="EMPCS_" select="$list[contains(., 'EMPCS_')]"/>
   <xsl:variable name="GPIO_" select="$list[contains(., 'GPIO_')]"/>
-  <xsl:variable name="GPLL_" select="$list[contains(., 'GPLL_')]"/>
+  <xsl:variable name="GPLL_" select="$list[contains(., 'GPLL_') and not(contains(., 'TGPLL_'))]"/>
   <xsl:variable name="HSIO_" select="$list[contains(., 'HSIO_')]"/> 
   <xsl:variable name="INT_CONTROL_REGS_" select="$list[contains(., 'INT_CONTROL_REGS_')]"/>
   <xsl:variable name="IOG_" select="$list[contains(., 'IOG_')]"/>
