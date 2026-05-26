@@ -29,10 +29,8 @@
   
  
   
-  <xsl:variable name="cscb" select="$list[contains(., 'cscb')]"/>
-  <xsl:variable name="mps" select="$list[contains(., 'mps')]"/>
-  <xsl:variable name="vpb" select="$list[contains(., 'vpb')]"/>
-  
+  <xsl:variable name="cscb" select="$list"/>
+   
   
   <xsl:template match="/">
     
@@ -42,11 +40,12 @@
     
     <xsl:if test="count($cscb) &gt; 0">
       <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
-      <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}CSCB.ditamap">
+      <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}Polarfire-Registers.ditamap">
         <xsl:element name="map">
           <xsl:attribute name="id" select="generate-id()"/>
-          <xsl:element name="title">GPIO</xsl:element>
+          <xsl:element name="title">Polarfire Engineering Review Registers</xsl:element>
           <xsl:for-each select="$cscb">
+            <xsl:if test="fn:string-length(normalize-space(.)) &gt; 1">
             <xsl:message>processing: <xsl:value-of select="."/></xsl:message>
             <xsl:variable name="current-file"
               select="concat('file:///', translate(translate(normalize-space(.), '\', '/'), ' ', ''), '/')"/>
@@ -62,65 +61,11 @@
                 </xsl:element>
               </xsl:if>
             </xsl:for-each>
+            </xsl:if>
           </xsl:for-each>
         </xsl:element>
       </xsl:result-document>
     </xsl:if>
-    
-    <xsl:if test="count($mps) &gt; 0">
-      <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
-      <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}MPS.ditamap">
-        <xsl:element name="map">
-          <xsl:attribute name="id" select="generate-id()"/>
-          <xsl:element name="title">GPIO</xsl:element>
-          <xsl:for-each select="$mps">
-            <xsl:message>processing: <xsl:value-of select="."/></xsl:message>
-            <xsl:variable name="current-file"
-              select="concat('file:///', translate(translate(normalize-space(.), '\', '/'), ' ', ''), '/')"/>
-            <xsl:message>NEXT: <xsl:value-of select="$current-file"/></xsl:message>
-            <xsl:for-each select="fn:collection($current-file)">
-              <xsl:if test="contains(base-uri(), '.ditamap')">
-                <xsl:element name="topicref">
-                  <xsl:attribute name="href">
-                    <xsl:value-of
-                      select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
-                  </xsl:attribute>
-                  <xsl:attribute name="format">ditamap</xsl:attribute>
-                </xsl:element>
-              </xsl:if>
-            </xsl:for-each>
-          </xsl:for-each>
-        </xsl:element>
-      </xsl:result-document>
-    </xsl:if>
-    
-    <xsl:if test="count($vpb) &gt; 0">
-      <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
-      <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}VPB.ditamap">
-        <xsl:element name="map">
-          <xsl:attribute name="id" select="generate-id()"/>
-          <xsl:element name="title">GPIO</xsl:element>
-          <xsl:for-each select="$vpb">
-            <xsl:message>processing: <xsl:value-of select="."/></xsl:message>
-            <xsl:variable name="current-file"
-              select="concat('file:///', translate(translate(normalize-space(.), '\', '/'), ' ', ''), '/')"/>
-            <xsl:message>NEXT: <xsl:value-of select="$current-file"/></xsl:message>
-            <xsl:for-each select="fn:collection($current-file)">
-              <xsl:if test="contains(base-uri(), '.ditamap')">
-                <xsl:element name="topicref">
-                  <xsl:attribute name="href">
-                    <xsl:value-of
-                      select="substring-after(base-uri(), translate($STARTING-DIR, '\', '/'))"/>
-                  </xsl:attribute>
-                  <xsl:attribute name="format">ditamap</xsl:attribute>
-                </xsl:element>
-              </xsl:if>
-            </xsl:for-each>
-          </xsl:for-each>
-        </xsl:element>
-      </xsl:result-document>
-    </xsl:if>
-   
       
   </xsl:template>
 
