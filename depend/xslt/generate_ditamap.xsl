@@ -28,23 +28,19 @@
   <xsl:param name="list" select="tokenize($directories, '&#xD;')"/>
   
  
-  
-  <xsl:variable name="cscb" select="$list"/>
-   
-  
   <xsl:template match="/">
     
     <xsl:message>STARTING-DIR:<xsl:value-of select="$STARTING-DIR"/></xsl:message>
     <xsl:message>directories:<xsl:value-of select="$directories"/></xsl:message>
     <xsl:message>list:<xsl:value-of select="$list[1]"/></xsl:message>
     
-    <xsl:if test="count($cscb) &gt; 0">
+    <xsl:if test="count($list) &gt; 0">
       <xsl:message><xsl:value-of select="translate(concat('file:///', $OUTPUT-DIR), '\', '/')"/></xsl:message>
       <xsl:result-document href="{translate(concat('file:///', $OUTPUT-DIR), '\', '/')}Polarfire-Registers.ditamap">
         <xsl:element name="map">
           <xsl:attribute name="id" select="generate-id()"/>
           <xsl:element name="title">Polarfire Engineering Review Registers</xsl:element>
-          <xsl:for-each select="$cscb">
+          <xsl:for-each select="$list">
             <xsl:if test="fn:string-length(normalize-space(.)) &gt; 1">
             <xsl:message>processing: <xsl:value-of select="."/></xsl:message>
             <xsl:variable name="current-file"
